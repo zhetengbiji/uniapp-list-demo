@@ -1,0 +1,30 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "长列表优化示例"
+			}
+		},
+		{
+			"path": "pages/bad/bad",
+			"style": {
+				"navigationBarTitleText": "优化前",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/good/good",
+			"style": {
+				"navigationBarTitleText": "优化后",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长列表优化示例",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
